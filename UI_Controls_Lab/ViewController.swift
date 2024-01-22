@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     @IBAction func Reset(_ sender: Any) {
         screenNumber = 0;
+        step=1;
         Label.text = String(screenNumber);
     }
     @IBAction func Increment(_ sender: Any) {
