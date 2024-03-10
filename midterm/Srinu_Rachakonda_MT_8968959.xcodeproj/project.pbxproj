@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF620A932B9BB12400A479C6 /* Canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620A922B9BB12400A479C6 /* Canada.swift */; };
+		CF620A952B9BB16A00A479C6 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620A942B9BB16A00A479C6 /* Function.swift */; };
+		CF620A972B9BB1A200A479C6 /* Quadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620A962B9BB1A200A479C6 /* Quadratic.swift */; };
+		CF620A992B9BB1FE00A479C6 /* Lab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620A982B9BB1FE00A479C6 /* Lab2.swift */; };
+		CF620A9B2B9BB24300A479C6 /* Lab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620A9A2B9BB24300A479C6 /* Lab3.swift */; };
+		CF620A9D2B9BB26A00A479C6 /* Lab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620A9C2B9BB26A00A479C6 /* Lab4.swift */; };
+		CFAC23ED2B990A3200A676EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC23EC2B990A3200A676EE /* AppDelegate.swift */; };
+		CFAC23EF2B990A3200A676EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC23EE2B990A3200A676EE /* SceneDelegate.swift */; };
+		CFAC23F12B990A3200A676EE /* MyLabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC23F02B990A3200A676EE /* MyLabs.swift */; };
+		CFAC23F42B990A3200A676EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAC23F22B990A3200A676EE /* Main.storyboard */; };
+		CFAC23F62B990A3300A676EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAC23F52B990A3300A676EE /* Assets.xcassets */; };
+		CFAC23F92B990A3300A676EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAC23F72B990A3300A676EE /* LaunchScreen.storyboard */; };
+		CFAC24042B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC24032B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.swift */; };
+		CFAC240E2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC240D2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.swift */; };
+		CFAC24102B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC240F2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAC24002B990A3300A676EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAC23E12B990A3200A676EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAC23E82B990A3200A676EE;
+			remoteInfo = Srinu_Rachakonda_MT_8968959;
+		};
+		CFAC240A2B990A3300A676EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAC23E12B990A3200A676EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAC23E82B990A3200A676EE;
+			remoteInfo = Srinu_Rachakonda_MT_8968959;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF620A922B9BB12400A479C6 /* Canada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canada.swift; sourceTree = "<group>"; };
+		CF620A942B9BB16A00A479C6 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		CF620A962B9BB1A200A479C6 /* Quadratic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic.swift; sourceTree = "<group>"; };
+		CF620A982B9BB1FE00A479C6 /* Lab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2.swift; sourceTree = "<group>"; };
+		CF620A9A2B9BB24300A479C6 /* Lab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3.swift; sourceTree = "<group>"; };
+		CF620A9C2B9BB26A00A479C6 /* Lab4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4.swift; sourceTree = "<group>"; };
+		CFAC23E92B990A3200A676EE /* Srinu_Rachakonda_MT_8968959.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Srinu_Rachakonda_MT_8968959.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAC23EC2B990A3200A676EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFAC23EE2B990A3200A676EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFAC23F02B990A3200A676EE /* MyLabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabs.swift; sourceTree = "<group>"; };
+		CFAC23F32B990A3200A676EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFAC23F52B990A3300A676EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFAC23F82B990A3300A676EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFAC23FA2B990A3300A676EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAC23FF2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Srinu_Rachakonda_MT_8968959Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAC24032B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Srinu_Rachakonda_MT_8968959Tests.swift; sourceTree = "<group>"; };
+		CFAC24092B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Srinu_Rachakonda_MT_8968959UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAC240D2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Srinu_Rachakonda_MT_8968959UITests.swift; sourceTree = "<group>"; };
+		CFAC240F2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Srinu_Rachakonda_MT_8968959UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAC23E62B990A3200A676EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC23FC2B990A3300A676EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC24062B990A3300A676EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAC23E02B990A3200A676EE = {
+			isa = PBXGroup;
+			children = (
+				CFAC23EB2B990A3200A676EE /* Srinu_Rachakonda_MT_8968959 */,
+				CFAC24022B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests */,
+				CFAC240C2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests */,
+				CFAC23EA2B990A3200A676EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAC23EA2B990A3200A676EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC23E92B990A3200A676EE /* Srinu_Rachakonda_MT_8968959.app */,
+				CFAC23FF2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.xctest */,
+				CFAC24092B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAC23EB2B990A3200A676EE /* Srinu_Rachakonda_MT_8968959 */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC23EC2B990A3200A676EE /* AppDelegate.swift */,
+				CFAC23EE2B990A3200A676EE /* SceneDelegate.swift */,
+				CFAC23F02B990A3200A676EE /* MyLabs.swift */,
+				CFAC23F22B990A3200A676EE /* Main.storyboard */,
+				CF620A9C2B9BB26A00A479C6 /* Lab4.swift */,
+				CF620A9A2B9BB24300A479C6 /* Lab3.swift */,
+				CF620A982B9BB1FE00A479C6 /* Lab2.swift */,
+				CF620A962B9BB1A200A479C6 /* Quadratic.swift */,
+				CF620A942B9BB16A00A479C6 /* Function.swift */,
+				CF620A922B9BB12400A479C6 /* Canada.swift */,
+				CFAC23F52B990A3300A676EE /* Assets.xcassets */,
+				CFAC23F72B990A3300A676EE /* LaunchScreen.storyboard */,
+				CFAC23FA2B990A3300A676EE /* Info.plist */,
+			);
+			path = Srinu_Rachakonda_MT_8968959;
+			sourceTree = "<group>";
+		};
+		CFAC24022B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC24032B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.swift */,
+			);
+			path = Srinu_Rachakonda_MT_8968959Tests;
+			sourceTree = "<group>";
+		};
+		CFAC240C2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC240D2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.swift */,
+				CFAC240F2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITestsLaunchTests.swift */,
+			);
+			path = Srinu_Rachakonda_MT_8968959UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAC23E82B990A3200A676EE /* Srinu_Rachakonda_MT_8968959 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAC24132B990A3300A676EE /* Build configuration list for PBXNativeTarget "Srinu_Rachakonda_MT_8968959" */;
+			buildPhases = (
+				CFAC23E52B990A3200A676EE /* Sources */,
+				CFAC23E62B990A3200A676EE /* Frameworks */,
+				CFAC23E72B990A3200A676EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Srinu_Rachakonda_MT_8968959;
+			productName = Srinu_Rachakonda_MT_8968959;
+			productReference = CFAC23E92B990A3200A676EE /* Srinu_Rachakonda_MT_8968959.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFAC23FE2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAC24162B990A3300A676EE /* Build configuration list for PBXNativeTarget "Srinu_Rachakonda_MT_8968959Tests" */;
+			buildPhases = (
+				CFAC23FB2B990A3300A676EE /* Sources */,
+				CFAC23FC2B990A3300A676EE /* Frameworks */,
+				CFAC23FD2B990A3300A676EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAC24012B990A3300A676EE /* PBXTargetDependency */,
+			);
+			name = Srinu_Rachakonda_MT_8968959Tests;
+			productName = Srinu_Rachakonda_MT_8968959Tests;
+			productReference = CFAC23FF2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFAC24082B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAC24192B990A3300A676EE /* Build configuration list for PBXNativeTarget "Srinu_Rachakonda_MT_8968959UITests" */;
+			buildPhases = (
+				CFAC24052B990A3300A676EE /* Sources */,
+				CFAC24062B990A3300A676EE /* Frameworks */,
+				CFAC24072B990A3300A676EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAC240B2B990A3300A676EE /* PBXTargetDependency */,
+			);
+			name = Srinu_Rachakonda_MT_8968959UITests;
+			productName = Srinu_Rachakonda_MT_8968959UITests;
+			productReference = CFAC24092B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAC23E12B990A3200A676EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CFAC23E82B990A3200A676EE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CFAC23FE2B990A3300A676EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFAC23E82B990A3200A676EE;
+					};
+					CFAC24082B990A3300A676EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFAC23E82B990A3200A676EE;
+					};
+				};
+			};
+			buildConfigurationList = CFAC23E42B990A3200A676EE /* Build configuration list for PBXProject "Srinu_Rachakonda_MT_8968959" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFAC23E02B990A3200A676EE;
+			productRefGroup = CFAC23EA2B990A3200A676EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAC23E82B990A3200A676EE /* Srinu_Rachakonda_MT_8968959 */,
+				CFAC23FE2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests */,
+				CFAC24082B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAC23E72B990A3200A676EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAC23F92B990A3300A676EE /* LaunchScreen.storyboard in Resources */,
+				CFAC23F62B990A3300A676EE /* Assets.xcassets in Resources */,
+				CFAC23F42B990A3200A676EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC23FD2B990A3300A676EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC24072B990A3300A676EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAC23E52B990A3200A676EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF620A9B2B9BB24300A479C6 /* Lab3.swift in Sources */,
+				CFAC23F12B990A3200A676EE /* MyLabs.swift in Sources */,
+				CF620A9D2B9BB26A00A479C6 /* Lab4.swift in Sources */,
+				CFAC23ED2B990A3200A676EE /* AppDelegate.swift in Sources */,
+				CFAC23EF2B990A3200A676EE /* SceneDelegate.swift in Sources */,
+				CF620A972B9BB1A200A479C6 /* Quadratic.swift in Sources */,
+				CF620A992B9BB1FE00A479C6 /* Lab2.swift in Sources */,
+				CF620A932B9BB12400A479C6 /* Canada.swift in Sources */,
+				CF620A952B9BB16A00A479C6 /* Function.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC23FB2B990A3300A676EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAC24042B990A3300A676EE /* Srinu_Rachakonda_MT_8968959Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC24052B990A3300A676EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAC24102B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITestsLaunchTests.swift in Sources */,
+				CFAC240E2B990A3300A676EE /* Srinu_Rachakonda_MT_8968959UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFAC24012B990A3300A676EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAC23E82B990A3200A676EE /* Srinu_Rachakonda_MT_8968959 */;
+			targetProxy = CFAC24002B990A3300A676EE /* PBXContainerItemProxy */;
+		};
+		CFAC240B2B990A3300A676EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAC23E82B990A3200A676EE /* Srinu_Rachakonda_MT_8968959 */;
+			targetProxy = CFAC240A2B990A3300A676EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFAC23F22B990A3200A676EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAC23F32B990A3200A676EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAC23F72B990A3300A676EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAC23F82B990A3300A676EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAC24112B990A3300A676EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFAC24122B990A3300A676EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAC24142B990A3300A676EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Srinu_Rachakonda_MT_8968959/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.Srinu-Rachakonda-MT-8968959";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFAC24152B990A3300A676EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Srinu_Rachakonda_MT_8968959/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.Srinu-Rachakonda-MT-8968959";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CFAC24172B990A3300A676EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.Srinu-Rachakonda-MT-8968959Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Srinu_Rachakonda_MT_8968959.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Srinu_Rachakonda_MT_8968959";
+			};
+			name = Debug;
+		};
+		CFAC24182B990A3300A676EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.Srinu-Rachakonda-MT-8968959Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Srinu_Rachakonda_MT_8968959.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Srinu_Rachakonda_MT_8968959";
+			};
+			name = Release;
+		};
+		CFAC241A2B990A3300A676EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.Srinu-Rachakonda-MT-8968959UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Srinu_Rachakonda_MT_8968959;
+			};
+			name = Debug;
+		};
+		CFAC241B2B990A3300A676EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.Srinu-Rachakonda-MT-8968959UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Srinu_Rachakonda_MT_8968959;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAC23E42B990A3200A676EE /* Build configuration list for PBXProject "Srinu_Rachakonda_MT_8968959" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAC24112B990A3300A676EE /* Debug */,
+				CFAC24122B990A3300A676EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAC24132B990A3300A676EE /* Build configuration list for PBXNativeTarget "Srinu_Rachakonda_MT_8968959" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAC24142B990A3300A676EE /* Debug */,
+				CFAC24152B990A3300A676EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAC24162B990A3300A676EE /* Build configuration list for PBXNativeTarget "Srinu_Rachakonda_MT_8968959Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAC24172B990A3300A676EE /* Debug */,
+				CFAC24182B990A3300A676EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAC24192B990A3300A676EE /* Build configuration list for PBXNativeTarget "Srinu_Rachakonda_MT_8968959UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAC241A2B990A3300A676EE /* Debug */,
+				CFAC241B2B990A3300A676EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFAC23E12B990A3200A676EE /* Project object */;
+}
